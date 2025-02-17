@@ -1,0 +1,20 @@
+@import url('../../index.css');
+
+.titleContainer {
+    padding: 2em;
+    border-radius: 1em;
+    border: 0.1em solid var(--outline);
+    -webkit-box-shadow: 10px 10px 0px 1px var(--outline);
+    -moz-box-shadow: 10px 10px 0px 1px var(--outline);
+    box-shadow: 10px 10px 0px 1px var(--outline);
+    background-color: var(--lighter);
+    margin: 3em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    color: var(--darker);
+}

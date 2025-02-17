@@ -1,0 +1,39 @@
+@import url('../../index.css');
+
+.contentDiv {
+    -webkit-box-shadow: 10px 10px 0px 1px var(--outline);
+    -moz-box-shadow: 10px 10px 0px 1px var(--outline);
+    box-shadow: 10px 10px 0px 1px var(--outline);
+    background-color: var(--base);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    border-radius: 1em;
+    border: 0.1em solid var(--outline);
+    max-width: 80vw;
+}
+
+.contentDiv *{
+    color: var(--outline);
+}
+
+.contentDiv h3, h4, h5, h6{
+    color: var(--darker);
+}
+
+.contentDiv img{
+    max-width: 80%;
+    object-fit: contain;
+    -webkit-box-shadow: 10px 10px 0px 1px var(--outline);
+    -moz-box-shadow: 10px 10px 0px 1px var(--outline);
+    box-shadow: 10px 10px 0px 1px var(--outline);
+    border: 0.1em solid var(--outline);
+}
+
+    @media screen and (min-width: 992px) {
+        .contentDiv{
+            max-width: 40vw;
+        }
+      }

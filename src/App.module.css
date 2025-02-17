@@ -1,7 +1,11 @@
+@import url('./index.css');
+
 .mainContent {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 200);
+    background-color: rgba(255, 0, 0, 0);
+    margin-top: 2em;
+
 }

@@ -1,15 +1,43 @@
+@import url('../../index.css');
 
 .mainHeader {
-  background-color: red;
-  border: 1em solid 1em;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .mainHeader a {
+  border-left: 0.1em solid var(--base);
+  width: auto;
+  text-decoration: none;
+  margin: 0.05em;
   padding: 0.5em;
+  color: var(--darker);
+  background-color: var(--base);
+  transition: 0.2s;
 }
 
+.mainHeader a:visited{
+  color: var(--darker);
+}
 
+.mainHeader a:hover{
+  color: var(--outline);
+  cursor: pointer;
+}
+
+.title {
+  background-color: var(--base);
+  padding: 1em;
+}
+
+.headerContainer {
+  border-radius: 1em;
+  border: 0.1em solid var(--outline);
+  -webkit-box-shadow: 10px 10px 0px 1px var(--outline);
+  -moz-box-shadow: 10px 10px 0px 1px var(--outline);
+  box-shadow: 10px 10px 0px 1px var(--outline);
+  background-color: var(--lighter);
+}
