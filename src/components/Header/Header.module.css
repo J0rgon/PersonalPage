@@ -1,0 +1,15 @@
+
+.mainHeader {
+  background-color: red;
+  border: 1em solid 1em;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainHeader a {
+  padding: 0.5em;
+}
+
+

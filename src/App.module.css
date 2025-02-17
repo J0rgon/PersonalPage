@@ -1,0 +1,7 @@
+.mainContent {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 200);
+}
