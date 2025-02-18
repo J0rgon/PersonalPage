@@ -8,7 +8,7 @@ import { beginning } from '../contentStrings.js';
 import Footer from './components/Footer/Footer.jsx';
 
 function App({section}) {
-
+  console.log('Loading app component');
   return (
     <>
       <main className={style.mainContent}>

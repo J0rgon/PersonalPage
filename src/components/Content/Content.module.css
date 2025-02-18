@@ -30,6 +30,7 @@
     -moz-box-shadow: 10px 10px 0px 1px var(--outline);
     box-shadow: 10px 10px 0px 1px var(--outline);
     border: 0.1em solid var(--outline);
+    margin-bottom: 2em;
 }
 
     @media screen and (min-width: 992px) {

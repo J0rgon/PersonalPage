@@ -1,5 +1,5 @@
-import Content from '../Content/Content';
-import Title from '../Title/Title';
+import Content from '../../Content/Content';
+import Title from '../../Title/Title';
 import style from './PastSection.module.css';
 
 function Past() {
