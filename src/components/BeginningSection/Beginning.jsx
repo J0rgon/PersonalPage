@@ -1,4 +1,4 @@
-import style from 'Beginning.module.css';
+import style from './Beginning.module.css';
 import { beginning } from '../../../contentStrings.js';
 import Title from '../Title/Title.jsx';
 import Content from '../Content/Content.jsx';

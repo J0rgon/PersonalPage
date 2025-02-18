@@ -1,5 +1,6 @@
-
+import { Link, Navigate } from 'react-router';
 import style from './Header.module.css';
+
 
 function Header() {
   return (
@@ -8,10 +9,10 @@ function Header() {
         Hello my gravy babies!
       </h1>
       <header className={style.mainHeader}>
-        <a href="#beginning">Beginning</a>
-        <a href="#">Past</a>
-        <a href="#">Present</a>
-        <a href="#">Future?</a>    
+        <Link replace={true} to={'/'}>Beginning</Link>
+        <Link replace={true} to={'/past'}>Past</Link>
+        <Link replace={true} to={'/present'}>Present</Link>
+        <Link replace={true} to={'/future'}>Future?</Link>  
       </header>
       </div>
   );

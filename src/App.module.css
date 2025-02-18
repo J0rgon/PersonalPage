@@ -7,5 +7,5 @@
     align-items: center;
     background-color: rgba(255, 0, 0, 0);
     margin-top: 2em;
-
+    min-height: 95vh;
 }

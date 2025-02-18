@@ -5,6 +5,7 @@ import Header from './components/Header/Header.jsx';
 import Title from './components/Title/Title.jsx';
 import face from './assets/myFace.jpg';
 import { beginning } from '../contentStrings.js';
+import Footer from './components/Footer/Footer.jsx';
 
 function App({section}) {
 
@@ -14,6 +15,7 @@ function App({section}) {
         <Header />
         {section}
       </main>
+      <Footer />
     </>
   )
 }
