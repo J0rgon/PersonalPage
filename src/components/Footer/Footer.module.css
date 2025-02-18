@@ -16,3 +16,14 @@
 .footer * {
     color: var(--full);
 }
+
+.socials {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials *{
+    margin: 0.25em;
+}

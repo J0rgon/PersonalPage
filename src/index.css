@@ -15,6 +15,15 @@
   font-family: "Fuzzy Bubbles", serif;
 }
 
+::selection{
+  color: var(--outline);
+  background-color: var(--lighter);
+}
+
+#dropdowns option[selected] {
+  background: var(--base);
+}
+
 body {
   margin: 0;
   display: flex;
@@ -25,6 +34,13 @@ body {
   background-position: right top;
   background-repeat: repeat;
   background-color: pink;
+}
+
+section {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
 }
 
 

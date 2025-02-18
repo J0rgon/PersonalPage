@@ -6,17 +6,23 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  background-color: var(--base);
+  border-bottom-right-radius: 1em;
+  border-bottom-left-radius: 1em;
 }
 
 .mainHeader a {
-  border-left: 0.1em solid var(--base);
+  border-left: 0.1em solid var(--lighter);
   width: auto;
   text-decoration: none;
-  margin: 0.05em;
   padding: 0.5em;
   color: var(--darker);
   background-color: var(--base);
   transition: 0.2s;
+}
+
+.mainHeader:first-child{
+  border-left: 0;
 }
 
 .mainHeader a:visited{

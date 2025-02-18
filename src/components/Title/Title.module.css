@@ -13,8 +13,15 @@
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
+    max-width: 90vw;
 }
 
 .title{
     color: var(--darker);
 }
+
+@media screen and (min-width: 992px) {
+    .contentDiv{
+        max-width: 40vw;
+    }
+  }
